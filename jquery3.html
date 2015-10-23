@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Jquery3</title>
+	<script type="text/javascript"></script>
+	<style type="text/css"></style>
+	<style>
+		img{
+			width: 100px;
+			height: 100px;
+		}
+										
+	</style>
+	<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>
+	$('document').ready(function(){
+		$('img').click(function(){
+			$(this).hide();
+		})
+	})
+	</script>
+</head>
+<body>
+	<div id="scary">
+		<img src = "ninja.jpg"/>
+		<img src = "ninja.jpg"/>
+		<img src = "ninja.jpg"/>
+		<img src = "ninja.jpg"/>
+		<img src = "ninja.jpg"/>
+	</div>	
+</body>
+</html>
+
